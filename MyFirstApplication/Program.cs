@@ -19,14 +19,16 @@ void HouseExample()
     House myHouse = new House();
     myHouse.DoorOpenClose();
 }
-/* This local function is for my first exercise lab
+
+/* 
+ This local function is for my first exercise lab
  */
 MyLocalFunction();
 
 Console.WriteLine("This is my first sentence");
 Console.WriteLine("I am new to CSharp");
 Console.WriteLine("This CSharp course is cool");
-Console.WriteLine("I am learning new stuff everyday.");
+Console.WriteLine("I am learning stuff everyday.");
 
 void MyLocalFunction()
 {
