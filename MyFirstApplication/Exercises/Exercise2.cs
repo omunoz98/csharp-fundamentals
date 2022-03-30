@@ -29,7 +29,8 @@ public class Exercise2
         output = "Jack and Jill \nwent up the hill \n to fetch a pail of water. \nJack fell down and broke his crown \nand Jill came tumbling after.";
         Console.WriteLine(output);
     }
-
+    
+    // Lesson 2 Lab exercise objective 4
     public string inter(string name, string movie, string snack, string drink)
     {
         return $"Hello my name is {name}, my current favorite movie is {movie}, my favorite snack is {snack}, and favorite drink is {drink}";
