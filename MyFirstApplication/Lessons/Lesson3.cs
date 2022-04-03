@@ -91,7 +91,21 @@ internal class Lesson3
         Console.WriteLine(name != beta);
 
      }
- 
+    // This method will show increment and decrement
+    public void MyIncrDecrExample()
+    {
+        int alpha = 11, beta = 16;
+        alpha++; // post increment
+        Console.WriteLine(alpha);
+        ++alpha; // pre increment
+        Console.WriteLine(alpha);
+
+        beta--; // post decrement
+        Console.WriteLine(beta);
+        --beta; //
+        Console.WriteLine(beta);
+    }
+   
 }
 
 // end class
