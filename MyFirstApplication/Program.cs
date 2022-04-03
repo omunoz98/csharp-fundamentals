@@ -17,22 +17,44 @@ inside that member.
 
 // Lesson Examples
 // HouseExample();
-Lesson2Example();
+// Lesson2Example();
+Lesson3Example();
+
+
+// Lesson3 Operators and Overflow Checking
+void Lesson3Example()
+{
+    Lesson3 myLesson3 = new Lesson3();
+    //  myLesson3.BasicCheckedOperator(14);
+    // myLesson3.BasicCheckedExample2();
+    // myLesson3.BasicUncheckedExamples();
+    // myLesson3.BasicMath();
+    // myLesson3.BasicModulus(783);
+    // myLesson3.BasicBooleanLogical(true, false);
+    // myLesson3.BasicCompoundExample(12, 35, 9);
+    myLesson3.BasicRelationalExample("Tom", "Tim");
+
+
+   // int alpha = 2147483647;
+   // int total = alpha + 11;
+   // Console.WriteLine(total);
+    // -2147483638
+}
 
 
 // Lesson 2 Strings
-void Lesson2Example()
+// void Lesson2Example()
 {
-    Lesson2 myLesson2 = new Lesson2();
-    myLesson2.MyTrimExample();
-    int able = myLesson2.MyStringLength();
-    Console.WriteLine(able);
-    myLesson2.MyEqualsExample("Hello World");
-    myLesson2.MyExampleChar();
-    Console.WriteLine(myLesson2.myEscapeExample());
-    myLesson2.MyJoinedStrings("CSharp", "Rules");
-    Console.WriteLine(myLesson2.MyInterpolationExample("pizza", 3));
-    myLesson2.MyOtherInterpolation();
+   //  Lesson2 myLesson2 = new Lesson2();
+   // myLesson2.MyTrimExample();
+   // int able = myLesson2.MyStringLength();
+   // Console.WriteLine(able);
+   // myLesson2.MyEqualsExample("Hello World");
+   // myLesson2.MyExampleChar();
+   // Console.WriteLine(myLesson2.myEscapeExample());
+   // myLesson2.MyJoinedStrings("CSharp", "Rules");
+   // Console.WriteLine(myLesson2.MyInterpolationExample("pizza", 3));
+  //  myLesson2.MyOtherInterpolation();
 }
 
 void HouseExample()
@@ -46,10 +68,10 @@ void HouseExample()
  */
 // MyLocalFunction();
 
-Console.WriteLine("This is my first sentence");
-Console.WriteLine("I am new to CSharp");
-Console.WriteLine("This CSharp course is cool");
-Console.WriteLine("I am learning stuff everyday.");
+// Console.WriteLine("This is my first sentence");
+// Console.WriteLine("I am new to CSharp");
+// Console.WriteLine("This CSharp course is cool");
+// Console.WriteLine("I am learning stuff everyday.");
 
 void MyLocalFunction()
 {
