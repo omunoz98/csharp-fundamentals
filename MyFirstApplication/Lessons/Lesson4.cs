@@ -108,7 +108,7 @@ namespace MyFirstApplication;
     public void BasicForStatement()
     {
         for (int i = 0; i < 12; i++)
-        {
+        { 
             Console.WriteLine($"For Number = {i}");
 
         }
@@ -142,9 +142,21 @@ namespace MyFirstApplication;
             Console.WriteLine($"Number = {i}");
         }
     }
+    /*
+     Relational Pattern compares an expression result with a constant
+     */
 
-
-
+    public void DrinkSize(int size)
+    {
+        string result = size switch
+        {
+            <= 20 => "Can",
+            <= 32 => "Bottle",
+            <= 64 => "Big Gulp",
+            _=> "We dont that size."
+        };
+        Console.WriteLine(result);
+    }
 
 
 } // end class

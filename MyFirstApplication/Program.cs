@@ -20,12 +20,48 @@ inside that member.
 // Lesson2Example();
 // Lesson3Example();
 
-Lesson4Example();
+// Lesson4Example();
+Lesson5Example();
+
+
+// Lesson 5 Expressions & Pattern Matching
+void Lesson5Example()
+{
+    Lesson5 myLesson5 = new Lesson5();
+
+    // Call method of myLesson5
+   // myLesson5.IsOperatorExample(34);
+
+    Lesson5.Del handler = myLesson5.DelegateMethod;
+  //  handler("Hello CSharp");
+
+    // Func Delegate
+    Func<int, int> add = myLesson5.Sum;
+    // Console.WriteLine($"func example = {add(23)}");
+
+    // Lambda expression 
+    // myLesson5.LambdaSquare();
+    // myLesson5.LambdaGreeting();
+
+    // Switch expression 
+   string value1 = myLesson5.BasicSwitch("red");
+    Console.WriteLine(value1); 
+   string value2 = myLesson5.FavoriteColor("green");
+    Console.WriteLine(value2);
+
+    // myLesson5.DrinkSize(33);
+
+    myLesson5.TemperatureGuide(48.6);
+    myLesson5.NumberChoice(3);
+
+
+}
+
 
 // Lesson 4 Control Flow 
-void Lesson4Example()
+// void Lesson4Example()
 {
-    Lesson4 myLesson4 = new Lesson4();
+    // Lesson4 myLesson4 = new Lesson4();
     // myLesson4.BasicIfStatment(11);
     // myLesson4.BasicIfElseStatement(12);
     // myLesson4.BasicIfElseChainStatement(5);
@@ -36,10 +72,11 @@ void Lesson4Example()
     // myLesson4.BasicDoStatement();
     // myLesson4.BasicForStatement();
     // myLesson4.BasicForeachStatement();
-   // myLesson4.BasicJumpStatements();
+    // myLesson4.BasicJumpStatements();
+     
 }
 
-
+// Relational patten
 
 
 // Lesson3 Operators and Overflow Checking
