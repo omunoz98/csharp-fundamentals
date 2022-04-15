@@ -23,7 +23,33 @@ inside that member.
 // Lesson4Example();
 // Lesson5Example();
 
-Lesson6Examples();
+//Lesson6Examples();
+Lesson7Example();
+
+
+void Lesson7Example()
+{
+    Location myLocation = new Location(34.5, 47.8);
+    Console.WriteLine(myLocation.Latitude);
+    Console.WriteLine(myLocation);
+
+    // readonly struct
+    Student myStudent = new Student(10, "Omar");
+    Console.WriteLine(myStudent);
+    Console.WriteLine(myStudent.StudentName);
+    // record
+    Person person = new Person("Nancy", "Drew");
+    Console.WriteLine(person);
+    Console.WriteLine(person.lastName);
+
+    // struct record
+    Resolution res = new Resolution(1920, 1080);
+    res.CalculateRes();
+    Console.WriteLine(res);
+
+
+}
+
 
 void Lesson6Examples()
 {
@@ -34,14 +60,14 @@ void Lesson6Examples()
     theHat($"I tried on a {myLessonHats.HatType} hat that was size {myLessonHats.HatSize}");
 
 
-    Console.WriteLine();
+    //Console.WriteLine();
 
 
     // Constructor with one parameter
     Lesson6 myOther6 = new Lesson6(21);
     // Constructor with 2 parameters
     Lesson6 myHats = new Lesson6("Cowboy", 7);
-    Console.WriteLine(myHats.HatSize);
+    //Console.WriteLine(myHats.HatSize);
     myHats.HatSize = 6; // setting value
 
     // Method parameter modifiers
@@ -49,11 +75,11 @@ void Lesson6Examples()
   
     myLesson6.InExample(able);
     myLesson6.RefExample(ref beta);
-    Console.WriteLine(beta);
+    //Console.WriteLine(beta);
     myLesson6.OutExample(out charlie);
-    Console.WriteLine(charlie);
+    //Console.WriteLine(charlie);
 
-    Console.WriteLine();
+  //  Console.WriteLine();
 
     // Multi-cast delegate
     Lesson6.TryOn theNewHat, hangTheHat, multiHat;
