@@ -26,9 +26,17 @@ inside that member.
 //Lesson6Examples();
 //Lesson7Example();
 Lesson8Example();
+Exercise8();
+
+void Exercise8()
+{
+   Exercise8 myExercise8 = new Exercise8();
+    Console.WriteLine(myExercise8.CalculateInches(2));
+}
 
 void Lesson8Example()
 {
+    
     Lesson8 myLesson8 = new Lesson8(3);
     // Calling constant directly
     Console.WriteLine(Lesson8.DaysPerMonth);
@@ -42,6 +50,10 @@ void Lesson8Example()
     myLesson8.CalculateHours();
     Lesson8.CalculateDayCount();
     Console.WriteLine($"The calculation has been done {Lesson8.DayCount} times");
+
+    // static lambda
+    myLesson8.CalculateHoursV2();
+
 }
 
 void Lesson7Example()
@@ -63,6 +75,8 @@ void Lesson7Example()
     Resolution res = new Resolution(1920, 1080);
     res.CalculateRes();
     Console.WriteLine(res);
+
+
 
 
 }
