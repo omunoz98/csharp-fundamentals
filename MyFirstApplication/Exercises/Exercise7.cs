@@ -40,7 +40,7 @@ In your record body, include the boat method that you defined.
 This record can be in the same file as exercise 1. Just put the code under it as seen in the lecture.
 Test your record to ensure it is working correctly.*/
 
-internal record Boat()
+internal record Boat
 {
     private int _size;
     private string _color;
