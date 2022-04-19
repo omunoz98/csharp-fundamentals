@@ -26,7 +26,23 @@ internal class Lesson9
     { 
         Console.WriteLine("This method is internal");
     }
+    /*
+     Protected internal can be seen within the assembly or child (derived) class
+    from another assembly
+     */
+    protected internal void SampleProtectedInternal()
+    {
+        Console.WriteLine("This method is protected internal");
+    }
 
+    /*
+     Private Protected can be seen only within the class and child(derived) class
+    from within the assembly
+     */
+    private protected void SamplePrivateProtected()
+    {
+        Console.WriteLine("This method is private protected");
+    }
 
 
     public class Nested
