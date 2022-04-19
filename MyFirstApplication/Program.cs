@@ -25,14 +25,20 @@ inside that member.
 
 //Lesson6Examples();
 //Lesson7Example();
-Lesson8Example();
-Exercise8();
 
-void Exercise8()
+Lesson9Example();
+    
+void Lesson9Example()
 {
-   Exercise8 myExercise8 = new Exercise8();
-    Console.WriteLine(myExercise8.CalculateInches(2));
+    Lesson9 myLesson9 = new Lesson9();
+    Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
+
+    // Access modifiers
+    myLesson9.SampleInternal(); 
+    myLesson9
+
 }
+
 
 void Lesson8Example()
 {
