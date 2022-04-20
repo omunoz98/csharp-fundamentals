@@ -30,7 +30,7 @@ public class House
 
     public void DoorOpenClose()
     {
-        Console.WriteLine("My door is open.");
+        Console.WriteLine($"My {DoorColor} door is open.");
     }
 }
 
