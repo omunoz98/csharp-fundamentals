@@ -40,6 +40,13 @@ public class Boat
     public Boat()
         :this($"White", "Sailboat", "Big Wheel") { }
 
+    public virtual void BoatMethod()
+    {
+        Console.WriteLine($"the new boat color is {Color}");
+    }
+
+
+
     public void BoatMethod()
     {
         Console.WriteLine($"The color of the boat is {Color}");

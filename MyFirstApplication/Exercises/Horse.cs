@@ -27,6 +27,12 @@ public class Horse
         :this ("Brown", "Tall","Long" ) { }
 
 
+    public virtual void HorseMethod(string size)
+    {
+        Console.WriteLine($"The horse we want is {Size}");
+    }
+
+
     public void HorseMethod()
     {
         Console.WriteLine($"The new horse is {Size}");

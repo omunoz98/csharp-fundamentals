@@ -26,5 +26,17 @@ public class Sailboat : Boat
     public Sailboat(string size, string materials, string wheel)
         :this("Big", "fiberglass", "big board") { }
 
+    public override void BoatMethod(string color)
+    {
+        Console.WriteLine($"the sailboat is {color}");
+    }
+
+    public void BoatMethod()
+    {
+        Console.WriteLine($"The new boat is {color}");
+    }
+
+
+
 }
 

@@ -32,7 +32,14 @@ public class Donkey : Horse
 
     public Donkey()
         :this("big nose", "short", "grey") { }
-   
 
+    public override void HorseMethod(string size)
+    {
+        Console.WriteLine($"The donkey is {size}");
+    }
+    public void HorseMethod()
+    {
+        Console.WriteLine($"The donkey is {Size} compared to the horse");
+    }
 
 }
