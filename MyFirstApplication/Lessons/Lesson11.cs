@@ -46,6 +46,7 @@ public class Square : Polygon
 public class Triangle : Polygon
 {
     public Triangle()
+        :base(3)
     {
         NumberOfSides = 3;
     }

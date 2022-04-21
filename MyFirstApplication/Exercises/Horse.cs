@@ -13,17 +13,18 @@ public class Horse
 {
     public string Color { get; set; }
     public string Size { get; set; }
-    private string Tail { get; set; }
+    public string Tail { get; set; }
 
-    public Horse(string color, string size)
+    public Horse(string color, string size, string length)
     {
         Size = size;
         Tail = color;
+        Tail = length;
         
     }
 
     public Horse()
-        :this ("Brown", "Tall") { }
+        :this ("Brown", "Tall","Long" ) { }
 
 
     public void HorseMethod()
