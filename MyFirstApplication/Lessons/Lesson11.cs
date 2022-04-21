@@ -43,8 +43,8 @@ public class Square : Polygon
 } // end class
 
 // Triangle is the derived class of Polygon
-public class Triangle : Polygon
-{
+public class Triangle : Polygon{
+
     public Triangle()
         :base(3)
     {

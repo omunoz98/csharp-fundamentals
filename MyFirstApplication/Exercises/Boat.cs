@@ -8,7 +8,7 @@
 
 
 
-internal class Boat
+public class Boat
 {
     private string _color;
     private string _type;
@@ -37,7 +37,7 @@ internal class Boat
         Wheel = wheel;
     }
 
-    public Boat(string color, string type, string wheel)
+    public Boat()
         :this($"White", "Sailboat", "Big Wheel") { }
 
     public void BoatMethod()

@@ -1,6 +1,6 @@
 ﻿using MyFirstApplication;
 
-// See https://aka.ms/new-console-template for more information
+// See for more information
 // Console.WriteLine("Hello, World!");
 
 // The below statement calls a local function
@@ -26,9 +26,36 @@ inside that member.
 // Lesson9Example();
 // Lesson10Example();
 // HouseUpdated();
-Lesson11Example();
+// Lesson11Example();
+// Lesson12Example();
+CondoExample();
 
-void Lesson11Example()
+void CondoExample()
+{
+    Condo myCondo = new Condo();
+    myCondo.Maintenance();
+    myCondo.DoorOpenClose();
+    Console.WriteLine(myCondo.RoofType);
+}
+
+
+
+
+
+void Lesson12Example()
+{
+    Fruit myFruit = new Fruit();
+    myFruit.EatFruit();
+
+    myFruit.EatFruit(3);
+
+    Apple myApple = new Apple();
+    myApple.EatFruit();
+}
+
+
+
+// void Lesson11Example()
 {
     Square square = new Square();
     double total = square.CalculateInteriorAngle();
