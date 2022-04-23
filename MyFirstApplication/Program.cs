@@ -29,7 +29,22 @@ inside that member.
 // Lesson11Example();
 // Lesson12Example();
 // CondoExample();
-Lesson13Example();
+// Lesson13Example();
+Lesson14Example();
+
+void Lesson14Example()
+{
+    Lesson14 myLesson14 = new Lesson14();
+    myLesson14.SingleIntArraay();
+    myLesson14.SingleHouseArray();
+    myLesson14.MultiIntArray();
+    myLesson14.JaggedArraySample();
+}
+
+
+
+
+
 
 void Lesson13Example()
 {
