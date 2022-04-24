@@ -34,13 +34,13 @@ internal class Exercise15
      */
 
 
-    public void Movies(int 1, string Batman)
-    {
-        int batman = 1;
-        batman = (int)batman.1;
+  //  public void Movies(int 1, string Batman)
+   // {
+        //int batman = 1;
+      //  batman = (int)batman.1;
 
 
-    }
+   // }
  
    
 
