@@ -41,7 +41,7 @@ Lesson17Example();
 
 void Lesson17Example()
 {
-    Lesson17 myLesson17 = new Lesson17();
+    Exercise17 myLesson17 = new Exercise17();
     House testHouse = null;
     // myLesson17.MyThrowExample(testHouse);
     //  myLesson17.MyExceptionExample(testHouse);

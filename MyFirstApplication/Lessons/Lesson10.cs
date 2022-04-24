@@ -4,7 +4,7 @@
 a single unit
  */
 
-internal class Lesson10
+public class Lesson10
 {
     private string _firstname;
     private string _address;

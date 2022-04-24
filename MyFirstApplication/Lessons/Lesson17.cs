@@ -38,7 +38,7 @@ internal class Lesson17
 
         try
         {
-            byte beta = byte.Parse(values[1]);
+            byte beta = byte.Parse(values[3]);
             Console.WriteLine(beta);
         }
         catch(IndexOutOfRangeException ex)
